@@ -1,162 +1,142 @@
-# Demo Guide: Copilot Chat Coding Practices
+# Guia de Demonstração: Práticas de Codificação com Copilot Chat
 
-This guide provides a detailed walkthrough of how to utilize GitHub Copilot Chat to implement and validate a utility function within the PowerBI JavaScript repository. The focus is on efficiency, maintainability, and best practices.
-
----
-
-## Prerequisites
-
-1. **Repository Setup**:
-   - Clone the [PowerBI JavaScript Repository](https://github.com/microsoft/PowerBI-JavaScript).
-   - Install [Visual Studio Code](https://code.visualstudio.com/) with GitHub Copilot and Copilot Chat extensions.
-
-2. **Development Environment**:
-   - Ensure Node.js and npm are installed.
-   - Confirm Jest is configured for testing.
+Este guia fornece um passo a passo detalhado sobre como utilizar o GitHub Copilot Chat para implementar e validar uma função utilitária dentro do repositório PowerBI JavaScript. O foco está na eficiência, manutenção e melhores práticas.
 
 ---
 
-## Task 1: Implement `calculatePercentage` Utility Function
+## Pré-requisitos
 
-### Objective
-Create a reusable utility function that calculates percentages, handling edge cases such as division by zero.
+1. **Configuração do Repositório**:
+   - Clone o [Repositório PowerBI JavaScript](https://github.com/microsoft/PowerBI-JavaScript).
+   - Instale o [Visual Studio Code](https://code.visualstudio.com/) com as extensões GitHub Copilot e Copilot Chat.
 
-### Steps
-
-1. **Identify the Utilities File**:
-   - Use `@workspace` to locate the correct file for utility functions:
-     ```
-     @workspace, where should I place a new utility function for percentage calculations?
-     ```
-
-2. **Create the Function**:
-   - Ask Copilot Chat to generate the function:
-     ```
-     Can you write a utility function named calculatePercentage in JavaScript that takes two arguments, part and total, and calculates the percentage? Ensure the function handles cases where total is zero by returning 0.
-     ```
-
-3. **Handle Edge Cases**:
-   - Query Copilot Chat for additional edge cases:
-     ```
-     What are some additional test cases I should include for this utility function?
-     ```
-
-4. **Document the Function**:
-   - Add a description of the function and its parameters:
-     ```
-     Refactor the following file to include a brief description of the function’s purpose and parameters.
-     ```
+2. **Ambiente de Desenvolvimento**:
+   - Certifique-se que Node.js e npm estejam instalados.
+   - Confirme que o Jest esteja configurado para testes.
 
 ---
 
-## Task 2: Generate Unit Tests
+## Tarefa 1: Implementar a Função Utilitária `calculatePercentage`
 
-### Objective
-Write and execute unit tests using Jest to validate the functionality of `calculatePercentage`.
+### Objetivo
+Criar uma função utilitária reutilizável que calcule porcentagens, tratando casos excepcionais como divisão por zero.
 
-### Steps
+### Passos
 
-1. **Set Up the Test Environment**:
-   - Run:
+1. **Identificar o Arquivo de Utilitários**:
+   - Use `@workspace` para localizar o arquivo correto para funções utilitárias:
+     `@workspace, onde devo colocar uma nova função utilitária para cálculos de porcentagem?`
+
+2. **Criar a Função**:
+   - Peça ao Copilot Chat para gerar a função:
+     `Você pode escrever uma função utilitária chamada calculatePercentage em JavaScript que aceita dois argumentos, part e total, e calcula a porcentagem? Garanta que a função trate casos onde total é zero, retornando 0.`
+
+3. **Tratar Casos Excepcionais**:
+   - Consulte o Copilot Chat para casos excepcionais adicionais:
+     `Quais são alguns casos de teste adicionais que devo incluir para esta função utilitária?`
+
+4. **Documentar a Função**:
+   - Adicione uma descrição da função e seus parâmetros:
+     `Refatorar o seguinte arquivo para incluir uma breve descrição do propósito da função e seus parâmetros.`
+
+---
+
+## Tarefa 2: Gerar Testes Unitários
+
+### Objetivo
+Escrever e executar testes unitários usando Jest para validar a funcionalidade de `calculatePercentage`.
+
+### Passos
+
+1. **Configurar o Ambiente de Teste**:
+   - Execute:
      ```
      npm test
      ```
-   - If Jest is not installed, use:
+   - Se o Jest não estiver instalado, use:
      ```
      npm install jest
      ```
 
-2. **Create a Test File**:
-   - Locate the tests directory with `@workspace`:
-     ```
-     @workspace, where is the current test directory?
-     ```
-   - Create `calculatePercentage.test.js` in the directory.
+2. **Criar um Arquivo de Teste**:
+   - Localize o diretório de testes com `@workspace`:
+     `@workspace, onde está o diretório de testes atual?`
+   - Crie `calculatePercentage.test.js` no diretório.
 
-3. **Write Unit Tests**:
-   - Ask Copilot Chat to generate test cases:
-     ```
-     Create unit tests for the calculatePercentage function that we have created.
-     ```
+3. **Escrever Testes Unitários**:
+   - Peça ao Copilot Chat para gerar casos de teste:
+     `Crie testes unitários para a função calculatePercentage que criamos.`
 
-4. **Run the Tests**:
+4. **Executar os Testes**:
    - Execute:
-     ```
-     npm test calculatePercentage.test.js
-     ```
+     `npm test calculatePercentage.test.js`
 
-5. **Debug and Iterate**:
-   - Use Copilot Chat to troubleshoot any failing tests:
-     ```
-     Why is this test failing, and how can I fix it?
-     ```
+5. **Depurar e Iterar**:
+   - Use o Copilot Chat para solucionar problemas em testes que falham:
+     `Por que esse teste está falhando e como posso corrigi-lo?`
 
 ---
 
-## Task 3: Refactor and Add Comments
+## Tarefa 3: Refatorar e Adicionar Comentários
 
-### Objective
-Enhance code readability by adding robust comments and adhering to naming conventions.
+### Objetivo
+Melhorar a legibilidade do código adicionando comentários robustos e aderindo às convenções de nomenclatura.
 
-### Steps
+### Passos
 
-1. **Locate Modified Files**:
-   - Use `@workspace` to find changed files:
-     ```
-     @workspace, what files have I changed so far for this task?
-     ```
+1. **Localizar Arquivos Modificados**:
+   - Use `@workspace` para encontrar arquivos alterados:
+     `@workspace, quais arquivos eu modifiquei até agora para esta tarefa?`
 
-2. **Add Comments**:
-   - Request Copilot Chat to add explanatory comments:
-     ```
-     Add robust comments for the following file that explains what each piece of code is doing.
-     ```
+2. **Adicionar Comentários**:
+   - Solicite ao Copilot Chat para adicionar comentários explicativos:
+     `Adicione comentários robustos para o seguinte arquivo que explica o que cada parte do código está fazendo.`
 
-3. **Refactor for Naming Conventions**:
-   - Update to camelCase or other conventions if needed.
+3. **Refatorar para Convenções de Nomenclatura**:
+   - Atualize para camelCase ou outras convenções, se necessário.
 
 ---
 
-## Task 4: Deployment and Consumption
+## Tarefa 4: Deployment e Consumo
 
-### Objective
-Demonstrate the functionality of `calculatePercentage` in a standalone JavaScript file.
+### Objetivo
+Demonstrar a funcionalidade de `calculatePercentage` em um arquivo JavaScript independente.
 
-### Steps
+### Passos
 
-1. **Create a Consumer File**:
-   - Navigate to the root of the repository.
-   - Create `consumeCalculatePercentage.js`.
+1. **Criar um Arquivo Consumidor**:
+   - Navegue até a raiz do repositório.
+   - Crie `consumeCalculatePercentage.js`.
 
-2. **Import the Function**:
+2. **Importar a Função**:
    ```javascript
    const { calculatePercentage } = require('./path/to/utilities');
    ```
 
-3. **Write Example Use Cases**:
+3. **Escrever Casos de Uso de Exemplo**:
    ```javascript
    console.log('Example 1:', calculatePercentage(50, 100)); // Expected Output: 50
    console.log('Example 2:', calculatePercentage(23, 0));  // Expected Output: 0
    console.log('Example 3:', calculatePercentage(7, 20));  // Expected Output: 35
    ```
 
-4. **Run the File**:
+4. **Executar o Arquivo**:
    ```
    node consumeCalculatePercentage.js
    ```
 
-5. **Document the File**:
-   - Add a comment block explaining its purpose:
+5. **Documentar o Arquivo**:
+   - Adicione um bloco de comentário explicando seu propósito:
      ```javascript
      /**
-      * This is a simple demo file to consume the calculatePercentage utility function.
-      * It demonstrates the functionality of the function with basic use cases.
+      * Este é um arquivo de demonstração simples para consumir a função utilitária calculatePercentage.
+      * Ele demonstra a funcionalidade da função com casos de uso básicos.
       */
      ```
 
-6. **Enhance the Demo**:
-   - Use Copilot Chat for suggestions and refactoring.
-   - Optionally, add error handling:
+6. **Aprimorar a Demonstração**:
+   - Use o Copilot Chat para sugestões e refatoração.
+   - Opcionalmente, adicione tratamento de erros:
      ```javascript
      try {
        console.log('Example 4:', calculatePercentage('invalid', 20));
@@ -167,13 +147,13 @@ Demonstrate the functionality of `calculatePercentage` in a standalone JavaScrip
 
 ---
 
-## Summary
+## Resumo
 
-This demo showcased the power of GitHub Copilot Chat in implementing, testing, and documenting a reusable utility function. By following these steps, you’ll:
-- Develop clean, maintainable code.
-- Leverage AI to streamline development processes.
-- Ensure robust functionality through comprehensive testing and documentation.
+Esta demonstração apresentou o poder do GitHub Copilot Chat na implementação, teste e documentação de uma função utilitária reutilizável. Seguindo estes passos, você irá:
+- Desenvolver código limpo e de fácil manutenção.
+- Aproveitar a IA para otimizar processos de desenvolvimento.
+- Garantir funcionalidade robusta através de testes abrangentes e documentação.
 
-### Resources
-- [PowerBI JavaScript Repository](https://github.com/microsoft/PowerBI-JavaScript)
-- [Jest Documentation](https://jestjs.io/docs/getting-started)
+### Recursos
+- [Repositório PowerBI JavaScript](https://github.com/microsoft/PowerBI-JavaScript)
+- [Documentação do Jest](https://jestjs.io/docs/getting-started)
