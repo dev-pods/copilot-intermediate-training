@@ -67,7 +67,7 @@ Para começar, certifique-se de ter o seguinte:
 
 1. Clone este repositório:
    ```bash
-   git clone https://github.com/your-organization/copilot-intermediate-training.git
+   git clone https://github.com/dev-pods/copilot-intermediate-training.git
    cd copilot-intermediate-training
    ```
 2. Revise o README de cada demo para começar:
@@ -76,6 +76,19 @@ Para começar, certifique-se de ter o seguinte:
 3. Configure seu ambiente de desenvolvimento:
    - Certifique-se de que o Copilot e o Copilot Chat estejam habilitados no VS Code.
    - Familiarize-se com as Configurações Avançadas no VS Code (consulte a Demo 1 para os passos).
+
+### 1. Crie um novo repositório a partir deste template
+
+- Clique em `Use this template` :point_right: `Create a new repository`
+- Defina o proprietário como seu nome de usuário do GitHub
+- Dê um nome ao repositório como `copilot-intermediate-training`
+- Adicione uma descrição como `GitHub Copilot para soluções avançadas`
+- Defina a visibilidade como `Public`
+- Clique em `Create repository`
+
+❗Se quiser, você pode utilizar o botão abaixo para criar um repositório a partir deste template. Certifique-se de que o nome do repositório seja `copilot-intermediate-training` e que a visibilidade seja `Public`.
+
+[![start-course](https://raw.githubusercontent.com/dev-pods/copilot-intermediate-training/873eb13decfe79fd486ff84bd97de0dab4912d9a/images/botao.svg)](https://github.com/new?template_owner=dev-pods&template_name=copilot-intermediate-training&owner=%40me&name=copilot-intermediate-training&description=GitHub+Copilot+para+soluções+avançadas&visibility=public)
 
 ## Melhores Práticas para Instrutores
 
