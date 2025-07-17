@@ -1,0 +1,15 @@
+{
+  "name": "Copilot Intermediate Training",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "GitHub.copilot",
+        "GitHub.copilot-chat"
+      ],
+      "settings": {
+        "terminal.integrated.defaultProfile.linux": "bash"
+      }
+    }
+  },
+  "postCreateCommand": "echo 'Devcontainer configurado com sucesso! 🚀'"
+}
