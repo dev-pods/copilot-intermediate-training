@@ -2,9 +2,7 @@
 
 ## Introdução
 
-### :bulb: Este repositório foi projetado para apoiar engenheiros e instrutores na realização de **demonstrações de Treinamento Intermediário do GitHub Copilot**. Os exercícios incluídos aqui têm como objetivo ilustrar cenários do mundo real onde o Copilot e o Copilot Chat podem melhorar significativamente os fluxos de trabalho de desenvolvimento.
-
-Seja você um instrutor facilitando esta sessão ou um engenheiro participando do treinamento, este repositório fornece os materiais e orientações necessários para se envolver efetivamente com o Copilot e o Copilot Chat.
+### :bulb: Este repositório foi projetado para apoiar engenheiros com exercícios que ilustram cenários do mundo real onde o Copilot e o Copilot Chat podem melhorar significativamente os fluxos de trabalho de desenvolvimento.
 
 ---
 
@@ -15,7 +13,6 @@ O GitHub Copilot é uma ferramenta poderosa que pode otimizar seu processo de co
 Este repositório abrange:
 - **Cenários do mundo real** para demonstrar os pontos fortes do Copilot e do Copilot Chat.
 - **Demonstrações práticas** focadas em Análise de Repositório, Recomendações de Melhorias e Estimativas de Nível de Esforço (LOE).
-- Dicas para instrutores facilitarem demonstrações significativas e impactantes.
 
 O repositório está dividido em exercícios individuais que destacam casos de uso específicos para o Copilot e o Copilot Chat, proporcionando aos participantes uma experiência de aprendizado imersiva e prática.
 
@@ -28,8 +25,6 @@ Ao final deste treinamento, os participantes irão:
 - Explorar o poder da **engenharia de prompts** para orientar o Copilot de forma eficaz.
 - Aprender como avaliar bases de código, aprimorar funcionalidades e estimar o esforço de desenvolvimento.
 - Desenvolver confiança para aproveitar o Copilot em tarefas complexas do mundo real.
-
-Para instrutores, este repositório oferece orientação estruturada para **realizar demonstrações envolventes** que mostram o impacto do Copilot.
 
 ---
 
@@ -56,7 +51,7 @@ Este repositório contém duas demonstrações detalhadas, cada uma com seu pró
 ## Pré-requisitos
 
 Para começar, certifique-se de ter o seguinte:
-- **Conta GitHub**: Necessária para acessar repositórios e habilitar o Copilot.
+- **Conta pessoal do GitHub**: Necessária para acessar repositórios e habilitar o Copilot.
 - **Visual Studio Code**: Seu IDE de escolha para este workshop.
 - **Extensões GitHub Copilot & Copilot Chat**: Instaladas e habilitadas no VS Code.
 - Familiaridade com fluxos de trabalho básicos de desenvolvimento, incluindo GitHub e VS Code.
@@ -80,14 +75,6 @@ Para começar, certifique-se de ter o seguinte:
 3. Configure seu ambiente de desenvolvimento:
    - Certifique-se de que o Copilot e o Copilot Chat estejam habilitados no VS Code.
    - Familiarize-se com as Configurações Avançadas no VS Code (consulte a Demo 1 para os passos).
-
-## Melhores Práticas para Instrutores
-
-### :star2: Dicas para Realizar Demonstrações Eficazes
-- **Prepare-se com Antecedência**: Familiarize-se com as demos e garanta que todas as ferramentas estejam configuradas adequadamente.
-- **Envolva a Audiência**: Incentive os participantes a fazer perguntas e acompanhar com suas próprias configurações.
-- **Aproveite o Copilot Chat**: Use o Copilot Chat para demonstrar como prompts interativos podem refinar e melhorar as sugestões.
-- **Itere e Adapte**: Mostre como os prompts podem ser refinados para melhorar as saídas do Copilot.
 
 ---
 
